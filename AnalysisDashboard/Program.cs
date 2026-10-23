@@ -1,4 +1,5 @@
 using AnalysisDashboard.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,5 +24,9 @@ app.UseAntiforgery();
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
+
+builder.Services.AddAuthenticationCore();
+
+// builder.Services.AddScoped<AuthenticationStateProvider, CustomAuthStateProvider>();
 
 app.Run();
