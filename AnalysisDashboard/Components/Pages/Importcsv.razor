@@ -1,0 +1,38 @@
+﻿@page "/import"
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.Extensions.Logging
+@inject ILogger<Importcsv> _logger
+
+<PageTitle>Import</PageTitle>
+
+<div>
+    <h2 class="centertext">Import Csv File.</h2>
+
+    <div class="parent">
+        <div class="box">
+
+            <div class="upload">
+                <h3>Upload your dataset</h3>
+                <p>Select a CSV file from your computer.</p>
+
+                <InputFile OnChange="UploadFile" accept=".csv" />
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@code {
+    private async Task UploadFile(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+
+        using var stream = file.OpenReadStream(maxAllowedSize: 5 * 1024 * 1024);
+        using var reader = new StreamReader(stream);
+
+        var content = await reader.ReadToEndAsync();
+
+        _logger.LogInformation(content);
+    }
+}

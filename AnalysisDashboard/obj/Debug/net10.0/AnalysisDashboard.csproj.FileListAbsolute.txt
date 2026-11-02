@@ -82,5 +82,7 @@ c:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug
 c:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\AnalysisDashboard.pdb
 c:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\AnalysisDashboard.genruntimeconfig.cache
 c:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\ref\AnalysisDashboard.dll
-C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\6siyto3txb-{0}-ngf9kxgbu7-ngf9kxgbu7.gz
-C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\9vuq0f4b5h-{0}-ngf9kxgbu7-ngf9kxgbu7.gz
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\scopedcss\Components\Pages\ImportCsv.razor.rz.scp.css
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\6siyto3txb-{0}-ml2ue40mbp-ml2ue40mbp.gz
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\9vuq0f4b5h-{0}-ml2ue40mbp-ml2ue40mbp.gz
