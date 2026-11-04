@@ -8,10 +8,39 @@
     ".NETCoreApp,Version=v10.0": {
       "AnalysisDashboard/1.0.0": {
         "dependencies": {
+          "Blazor.Bootstrap": "4.0.0",
+          "BlazorExpress.ChartJS": "1.2.4",
           "CsvHelper": "34.0.0"
         },
         "runtime": {
           "AnalysisDashboard.dll": {}
+        }
+      },
+      "Blazor.Bootstrap/4.0.0": {
+        "runtime": {
+          "lib/net10.0/BlazorBootstrap.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "BlazorExpress.ChartJS/1.2.4": {
+        "dependencies": {
+          "BlazorExpress.Core": "0.3.0"
+        },
+        "runtime": {
+          "lib/net10.0/BlazorExpress.ChartJS.dll": {
+            "assemblyVersion": "1.2.4.0",
+            "fileVersion": "1.2.4.0"
+          }
+        }
+      },
+      "BlazorExpress.Core/0.3.0": {
+        "runtime": {
+          "lib/net10.0/BlazorExpress.Core.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
+          }
         }
       },
       "CsvHelper/34.0.0": {
@@ -29,6 +58,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Blazor.Bootstrap/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fv1geGb0BZdB8LlQqjZnslExSqvSwz7sALGhx++8+yY/JDTyy/Pqqz78l/STZ5ZT5sZQ8hNiTEZmiQYEHcP2wQ==",
+      "path": "blazor.bootstrap/4.0.0",
+      "hashPath": "blazor.bootstrap.4.0.0.nupkg.sha512"
+    },
+    "BlazorExpress.ChartJS/1.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ErkQzIk1/MfoeyrGJeOMyG0xepJxD8WCJemyBfI+EK3Mw9UCEEahA74sG0ZboG6gpAJI+PPuLs9MG39u9OzFDw==",
+      "path": "blazorexpress.chartjs/1.2.4",
+      "hashPath": "blazorexpress.chartjs.1.2.4.nupkg.sha512"
+    },
+    "BlazorExpress.Core/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fA2EHo2zJMhbwnJ2EYB5SwbckDBvxzbFoMlo3rZ9NQNXrnX3vYRULrbnDigt/gmPc3Jiu/DH+ZJ1ifWrzKMxNA==",
+      "path": "blazorexpress.core/0.3.0",
+      "hashPath": "blazorexpress.core.0.3.0.nupkg.sha512"
     },
     "CsvHelper/34.0.0": {
       "type": "package",

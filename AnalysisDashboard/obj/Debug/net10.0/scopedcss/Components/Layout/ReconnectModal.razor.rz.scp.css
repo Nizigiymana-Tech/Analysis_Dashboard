@@ -1,26 +1,26 @@
-.components-reconnect-first-attempt-visible[b-7obuemaryr],
-.components-reconnect-repeated-attempt-visible[b-7obuemaryr],
-.components-reconnect-failed-visible[b-7obuemaryr],
-.components-pause-visible[b-7obuemaryr],
-.components-resume-failed-visible[b-7obuemaryr],
-.components-rejoining-animation[b-7obuemaryr] {
+.components-reconnect-first-attempt-visible[b-6347zs6k8d],
+.components-reconnect-repeated-attempt-visible[b-6347zs6k8d],
+.components-reconnect-failed-visible[b-6347zs6k8d],
+.components-pause-visible[b-6347zs6k8d],
+.components-resume-failed-visible[b-6347zs6k8d],
+.components-rejoining-animation[b-6347zs6k8d] {
     display: none;
 }
 
-#components-reconnect-modal.components-reconnect-show .components-reconnect-first-attempt-visible[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-show .components-rejoining-animation[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-paused .components-pause-visible[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-resume-failed .components-resume-failed-visible[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-retrying[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-retrying .components-reconnect-repeated-attempt-visible[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-retrying .components-rejoining-animation[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-failed[b-7obuemaryr],
-#components-reconnect-modal.components-reconnect-failed .components-reconnect-failed-visible[b-7obuemaryr] {
+#components-reconnect-modal.components-reconnect-show .components-reconnect-first-attempt-visible[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-show .components-rejoining-animation[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-paused .components-pause-visible[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-resume-failed .components-resume-failed-visible[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-retrying[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-retrying .components-reconnect-repeated-attempt-visible[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-retrying .components-rejoining-animation[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-failed[b-6347zs6k8d],
+#components-reconnect-modal.components-reconnect-failed .components-reconnect-failed-visible[b-6347zs6k8d] {
     display: block;
 }
 
 
-#components-reconnect-modal[b-7obuemaryr] {
+#components-reconnect-modal[b-6347zs6k8d] {
     background-color: white;
     width: 20rem;
     margin: 20vh auto;
@@ -30,23 +30,23 @@
     box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.3);
     opacity: 0;
     transition: display 0.5s allow-discrete, overlay 0.5s allow-discrete;
-    animation: components-reconnect-modal-fadeOutOpacity-b-7obuemaryr 0.5s both;
+    animation: components-reconnect-modal-fadeOutOpacity-b-6347zs6k8d 0.5s both;
     &[open]
 
 {
-    animation: components-reconnect-modal-slideUp-b-7obuemaryr 1.5s cubic-bezier(.05, .89, .25, 1.02) 0.3s, components-reconnect-modal-fadeInOpacity-b-7obuemaryr 0.5s ease-in-out 0.3s;
+    animation: components-reconnect-modal-slideUp-b-6347zs6k8d 1.5s cubic-bezier(.05, .89, .25, 1.02) 0.3s, components-reconnect-modal-fadeInOpacity-b-6347zs6k8d 0.5s ease-in-out 0.3s;
     animation-fill-mode: both;
 }
 
 }
 
-#components-reconnect-modal[b-7obuemaryr]::backdrop {
+#components-reconnect-modal[b-6347zs6k8d]::backdrop {
     background-color: rgba(0, 0, 0, 0.4);
-    animation: components-reconnect-modal-fadeInOpacity-b-7obuemaryr 0.5s ease-in-out;
+    animation: components-reconnect-modal-fadeInOpacity-b-6347zs6k8d 0.5s ease-in-out;
     opacity: 1;
 }
 
-@keyframes components-reconnect-modal-slideUp-b-7obuemaryr {
+@keyframes components-reconnect-modal-slideUp-b-6347zs6k8d {
     0% {
         transform: translateY(30px) scale(0.95);
     }
@@ -56,7 +56,7 @@
     }
 }
 
-@keyframes components-reconnect-modal-fadeInOpacity-b-7obuemaryr {
+@keyframes components-reconnect-modal-fadeInOpacity-b-6347zs6k8d {
     0% {
         opacity: 0;
     }
@@ -66,7 +66,7 @@
     }
 }
 
-@keyframes components-reconnect-modal-fadeOutOpacity-b-7obuemaryr {
+@keyframes components-reconnect-modal-fadeOutOpacity-b-6347zs6k8d {
     0% {
         opacity: 1;
     }
@@ -76,19 +76,19 @@
     }
 }
 
-.components-reconnect-container[b-7obuemaryr] {
+.components-reconnect-container[b-6347zs6k8d] {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-#components-reconnect-modal p[b-7obuemaryr] {
+#components-reconnect-modal p[b-6347zs6k8d] {
     margin: 0;
     text-align: center;
 }
 
-#components-reconnect-modal button[b-7obuemaryr] {
+#components-reconnect-modal button[b-6347zs6k8d] {
     border: 0;
     background-color: #6b9ed2;
     color: white;
@@ -96,33 +96,33 @@
     border-radius: 4px;
 }
 
-    #components-reconnect-modal button:hover[b-7obuemaryr] {
+    #components-reconnect-modal button:hover[b-6347zs6k8d] {
         background-color: #3b6ea2;
     }
 
-    #components-reconnect-modal button:active[b-7obuemaryr] {
+    #components-reconnect-modal button:active[b-6347zs6k8d] {
         background-color: #6b9ed2;
     }
 
-.components-rejoining-animation[b-7obuemaryr] {
+.components-rejoining-animation[b-6347zs6k8d] {
     position: relative;
     width: 80px;
     height: 80px;
 }
 
-    .components-rejoining-animation div[b-7obuemaryr] {
+    .components-rejoining-animation div[b-6347zs6k8d] {
         position: absolute;
         border: 3px solid #0087ff;
         opacity: 1;
         border-radius: 50%;
-        animation: components-rejoining-animation-b-7obuemaryr 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        animation: components-rejoining-animation-b-6347zs6k8d 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
     }
 
-        .components-rejoining-animation div:nth-child(2)[b-7obuemaryr] {
+        .components-rejoining-animation div:nth-child(2)[b-6347zs6k8d] {
             animation-delay: -0.5s;
         }
 
-@keyframes components-rejoining-animation-b-7obuemaryr {
+@keyframes components-rejoining-animation-b-6347zs6k8d {
     0% {
         top: 40px;
         left: 40px;

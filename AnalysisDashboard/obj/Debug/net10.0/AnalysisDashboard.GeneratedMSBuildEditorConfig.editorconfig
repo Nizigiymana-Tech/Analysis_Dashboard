@@ -12,57 +12,57 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AnalysisDashboard
 build_property.RootNamespace = AnalysisDashboard
-build_property.ProjectDir = C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\
+build_property.ProjectDir = /Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard
+build_property.MSBuildProjectDirectory = /Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/NotFound.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/NotFound.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ob3RGb3VuZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-ml1j9nk93k
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-2brrgvwdw0
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-3e8l7rdt9f
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-tq4b6p4ipt
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Layout/ReconnectModal.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcUmVjb25uZWN0TW9kYWwucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-7obuemaryr
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Layout/ReconnectModal.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvUmVjb25uZWN0TW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-6347zs6k8d
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Dashboard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-w26jcknfvy
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9EYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hracmlz280
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-0e8fd1s7rr
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-o41hewknm4
 
-[C:/Users/Terance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Importcsv.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbXBvcnRjc3YucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-7p85gof2tf
+[/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/Components/Pages/Importcsv.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9JbXBvcnRjc3YucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-3ywns1xty1

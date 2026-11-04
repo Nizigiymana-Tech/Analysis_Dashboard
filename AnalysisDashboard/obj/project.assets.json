@@ -2,6 +2,48 @@
   "version": 4,
   "targets": {
     "net10.0": {
+      "Blazor.Bootstrap/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/BlazorBootstrap.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/BlazorBootstrap.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazor.Bootstrap.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazor.Bootstrap.props": {}
+        }
+      },
+      "BlazorExpress.ChartJS/1.2.4": {
+        "type": "package",
+        "dependencies": {
+          "BlazorExpress.Core": "0.3.0"
+        },
+        "compile": {
+          "lib/net10.0/BlazorExpress.ChartJS.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/BlazorExpress.ChartJS.dll": {}
+        },
+        "build": {
+          "buildTransitive/BlazorExpress.ChartJS.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BlazorExpress.ChartJS.props": {}
+        }
+      },
+      "BlazorExpress.Core/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/BlazorExpress.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/BlazorExpress.Core.dll": {}
+        }
+      },
       "CsvHelper/34.0.0": {
         "type": "package",
         "compile": {
@@ -15,7 +57,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.App.Internal.Assets/10.0.13": {
+      "Microsoft.AspNetCore.App.Internal.Assets/10.0.12": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.App.Internal.Assets.props": {},
@@ -41,6 +83,75 @@
     }
   },
   "libraries": {
+    "Blazor.Bootstrap/4.0.0": {
+      "sha512": "Fv1geGb0BZdB8LlQqjZnslExSqvSwz7sALGhx++8+yY/JDTyy/Pqqz78l/STZ5ZT5sZQ8hNiTEZmiQYEHcP2wQ==",
+      "type": "package",
+      "path": "blazor.bootstrap/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "128X128.png",
+        "README.md",
+        "blazor.bootstrap.4.0.0.nupkg.sha512",
+        "blazor.bootstrap.nuspec",
+        "build/Blazor.Bootstrap.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazor.Bootstrap.props",
+        "buildTransitive/Blazor.Bootstrap.props",
+        "lib/net10.0/BlazorBootstrap.dll",
+        "lib/net8.0/BlazorBootstrap.dll",
+        "lib/net9.0/BlazorBootstrap.dll",
+        "staticwebassets/Blazor.Bootstrap.mnccjmrpdk.bundle.scp.css",
+        "staticwebassets/blazor.bootstrap.css",
+        "staticwebassets/blazor.bootstrap.js",
+        "staticwebassets/blazor.bootstrap.pdf.js",
+        "staticwebassets/blazor.bootstrap.rich-text-editor.js",
+        "staticwebassets/blazor.bootstrap.sortable-list.js",
+        "staticwebassets/blazor.bootstrap.theme-switcher.js",
+        "staticwebassets/icon/128X128.png",
+        "staticwebassets/pdfjs-4.0.379.min.js",
+        "staticwebassets/pdfjs-4.0.379.worker.min.js"
+      ]
+    },
+    "BlazorExpress.ChartJS/1.2.4": {
+      "sha512": "ErkQzIk1/MfoeyrGJeOMyG0xepJxD8WCJemyBfI+EK3Mw9UCEEahA74sG0ZboG6gpAJI+PPuLs9MG39u9OzFDw==",
+      "type": "package",
+      "path": "blazorexpress.chartjs/1.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazorexpress.chartjs.1.2.4.nupkg.sha512",
+        "blazorexpress.chartjs.nuspec",
+        "build/BlazorExpress.ChartJS.props",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BlazorExpress.ChartJS.props",
+        "buildTransitive/BlazorExpress.ChartJS.props",
+        "lib/net10.0/BlazorExpress.ChartJS.dll",
+        "lib/net8.0/BlazorExpress.ChartJS.dll",
+        "lib/net9.0/BlazorExpress.ChartJS.dll",
+        "logo.png",
+        "staticwebassets/blazorexpress.chartjs.js"
+      ]
+    },
+    "BlazorExpress.Core/0.3.0": {
+      "sha512": "fA2EHo2zJMhbwnJ2EYB5SwbckDBvxzbFoMlo3rZ9NQNXrnX3vYRULrbnDigt/gmPc3Jiu/DH+ZJ1ifWrzKMxNA==",
+      "type": "package",
+      "path": "blazorexpress.core/0.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazorexpress.core.0.3.0.nupkg.sha512",
+        "blazorexpress.core.nuspec",
+        "lib/net10.0/BlazorExpress.Core.dll",
+        "lib/net8.0/BlazorExpress.Core.dll",
+        "lib/net9.0/BlazorExpress.Core.dll",
+        "logo.png"
+      ]
+    },
     "CsvHelper/34.0.0": {
       "sha512": "yiFG6lPSgNFhraURmM/e4ROhbnNzMOZI1HxMvjNzn5lkc9dx3aN/sm/N4UM+rV6CPpZBQfrJfwEKUxkndeRKUQ==",
       "type": "package",
@@ -64,10 +175,10 @@
         "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
-    "Microsoft.AspNetCore.App.Internal.Assets/10.0.13": {
-      "sha512": "Y2cXnMnqht5fvja2H8kkr5WA2fYItIPwXiBVo83+/9oySuKZCrz4T+yyZRFtLpxxDScvtYDt7e+J0eNElJ+AiA==",
+    "Microsoft.AspNetCore.App.Internal.Assets/10.0.12": {
+      "sha512": "+sIBo9AMBZH46qHWHQdfzcGMt+RuBaPYrUMOAM9VjA7MQ9QtIez3lq1C3E05+Yroa94KKt3DSWaxmCI4H28a9Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.internal.assets/10.0.13",
+      "path": "microsoft.aspnetcore.app.internal.assets/10.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -83,7 +194,7 @@
         "build/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets",
-        "microsoft.aspnetcore.app.internal.assets.10.0.13.nupkg.sha512",
+        "microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
     },
@@ -105,32 +216,32 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Blazor.Bootstrap >= 4.0.0",
+      "BlazorExpress.ChartJS >= 1.2.4",
       "CsvHelper >= 34.0.0",
-      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.13",
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.12",
       "Microsoft.AspNetCore.Components.Authorization >= 10.0.13"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Terance\\.nuget\\packages\\": {}
+    "/Users/Terrance/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\AnalysisDashboard.csproj",
+      "projectUniqueName": "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/AnalysisDashboard.csproj",
       "projectName": "AnalysisDashboard",
-      "projectPath": "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\AnalysisDashboard.csproj",
-      "packagesPath": "C:\\Users\\Terance\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\obj\\",
+      "projectPath": "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/AnalysisDashboard.csproj",
+      "packagesPath": "/Users/Terrance/.nuget/packages/",
+      "outputPath": "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Terance\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/Terrance/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -157,6 +268,14 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
+          "Blazor.Bootstrap": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "BlazorExpress.ChartJS": {
+            "target": "Package",
+            "version": "[1.2.4, )"
+          },
           "CsvHelper": {
             "target": "Package",
             "version": "[34.0.0, )"
@@ -164,7 +283,7 @@
           "Microsoft.AspNetCore.App.Internal.Assets": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.13, )",
+            "version": "[10.0.12, )",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.Components.Authorization": {
@@ -191,7 +310,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

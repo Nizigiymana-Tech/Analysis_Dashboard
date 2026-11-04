@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\AnalysisDashboard.csproj": {}
+    "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/AnalysisDashboard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\AnalysisDashboard.csproj": {
+    "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/AnalysisDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\AnalysisDashboard.csproj",
+        "projectUniqueName": "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/AnalysisDashboard.csproj",
         "projectName": "AnalysisDashboard",
-        "projectPath": "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\AnalysisDashboard.csproj",
-        "packagesPath": "C:\\Users\\Terance\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Terance\\Desktop\\ShopWork\\Analysis_Dashboard\\AnalysisDashboard\\obj\\",
+        "projectPath": "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/AnalysisDashboard.csproj",
+        "packagesPath": "/Users/Terrance/.nuget/packages/",
+        "outputPath": "/Users/Terrance/Desktop/ShopWork/Analysis_Dashboard/AnalysisDashboard/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Terance\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/Terrance/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +46,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Blazor.Bootstrap": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "BlazorExpress.ChartJS": {
+              "target": "Package",
+              "version": "[1.2.4, )"
+            },
             "CsvHelper": {
               "target": "Package",
               "version": "[34.0.0, )"
@@ -55,7 +61,7 @@
             "Microsoft.AspNetCore.App.Internal.Assets": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.13, )",
+              "version": "[10.0.12, )",
               "autoReferenced": true
             },
             "Microsoft.AspNetCore.Components.Authorization": {
@@ -82,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

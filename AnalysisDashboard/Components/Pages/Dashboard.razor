@@ -2,6 +2,9 @@
 @using AnalysisDashboard.Services
 @inject CsvDataService CsvData
 @rendermode InteractiveServer
+@using BlazorBootstrap
+@using BlazorExpress.ChartJS
+
 
 <div class="header">
     <h2>Uploaded Dataset</h2>
@@ -19,7 +22,7 @@ else
 {
     @if (showChart)
     {
-        <p>Bar chart will go here.</p>
+        
     }
     else
     {
@@ -52,12 +55,27 @@ else
         string[] dataSplit = data.Split('\n');
 
         List<string[]> rows = new List<string[]>();
+        List<int> numericColums = new List<int>();
 
         foreach (string value in dataSplit)
         {
             string[] newValue = value.Split(",");
             rows.Add(newValue);
         }
+
+        foreach (string[] row in rows)
+        {
+            foreach (string value in row)
+            {
+                bool isNumber = double.TryParse(value, out double result);
+
+                if (isNumber)
+                {
+                    Console.WriteLine("IsNUm");
+                }
+            }
+        }
+
 
         return rows.ToArray();
     }
