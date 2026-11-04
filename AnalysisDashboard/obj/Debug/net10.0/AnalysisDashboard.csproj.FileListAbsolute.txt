@@ -84,5 +84,9 @@ c:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug
 c:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\ref\AnalysisDashboard.dll
 C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\scopedcss\Components\Pages\ImportCsv.razor.rz.scp.css
 C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\scopedcss\Components\Pages\Home.razor.rz.scp.css
-C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\6siyto3txb-{0}-ml2ue40mbp-ml2ue40mbp.gz
-C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\9vuq0f4b5h-{0}-ml2ue40mbp-ml2ue40mbp.gz
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\AnalysisDashboard.csproj.AssemblyReference.cache
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\bin\Debug\net10.0\CsvHelper.dll
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\Analysis.EBC6E7FD.Up2Date
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\scopedcss\Components\Pages\Dashboard.razor.rz.scp.css
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\6siyto3txb-{0}-uuftrm6n8a-uuftrm6n8a.gz
+C:\Users\Terance\Desktop\ShopWork\Analysis_Dashboard\AnalysisDashboard\obj\Debug\net10.0\compressed\9vuq0f4b5h-{0}-uuftrm6n8a-uuftrm6n8a.gz

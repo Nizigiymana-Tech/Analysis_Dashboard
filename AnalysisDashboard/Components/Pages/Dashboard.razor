@@ -1,0 +1,69 @@
+@page "/dashboard"
+@using AnalysisDashboard.Services
+@inject CsvDataService CsvData
+@rendermode InteractiveServer
+
+<div class="header">
+    <h2>Uploaded Dataset</h2>
+
+    <button @onclick="ToggleChart">
+        Toggle Chart
+    </button>
+</div>
+
+@if (string.IsNullOrEmpty(CsvData.CsvContent))
+{
+    <p>No CSV file uploaded.</p>
+}
+else
+{
+    @if (showChart)
+    {
+        <p>Bar chart will go here.</p>
+    }
+    else
+    {
+        <table>
+            @foreach (string[] row in rows)
+            {
+                <tr>
+                    @foreach (string value in row)
+                    {
+                        <td>@value</td>
+                    }
+                </tr>
+            }
+        </table> 
+    }
+}
+
+@code {
+    private string[][] rows = Array.Empty<string[]>();
+    private bool showChart = false;
+
+    protected override void OnInitialized()
+    {
+        rows = GetRows();
+    }
+
+    private string[][] GetRows()
+    {
+        string data = CsvData.CsvContent;
+        string[] dataSplit = data.Split('\n');
+
+        List<string[]> rows = new List<string[]>();
+
+        foreach (string value in dataSplit)
+        {
+            string[] newValue = value.Split(",");
+            rows.Add(newValue);
+        }
+
+        return rows.ToArray();
+    }
+
+    private void ToggleChart()
+    {
+        showChart = !showChart;
+    }
+}

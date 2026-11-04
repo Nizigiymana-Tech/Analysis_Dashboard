@@ -1,6 +1,9 @@
 using AnalysisDashboard.Components;
+using AnalysisDashboard.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<CsvDataService>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

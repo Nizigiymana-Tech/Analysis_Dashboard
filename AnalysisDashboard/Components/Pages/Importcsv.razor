@@ -1,7 +1,12 @@
 ﻿@page "/import"
+
+@rendermode InteractiveServer
+@using AnalysisDashboard.Services
 @using Microsoft.AspNetCore.Components.Forms
 @using Microsoft.Extensions.Logging
 @inject ILogger<Importcsv> _logger
+@inject NavigationManager NavManager
+@inject CsvDataService CsvData
 
 <PageTitle>Import</PageTitle>
 
@@ -16,14 +21,17 @@
                 <p>Select a CSV file from your computer.</p>
 
                 <InputFile OnChange="UploadFile" accept=".csv" />
-
-            </div>
-
+           </div>
         </div>
     </div>
 </div>
 
 @code {
+    private void RedirectUseWithData(string CsvInfo)
+    {
+        NavManager.NavigateTo("dashboard");
+    }
+
     private async Task UploadFile(InputFileChangeEventArgs e)
     {
         var file = e.File;
@@ -33,6 +41,8 @@
 
         var content = await reader.ReadToEndAsync();
 
-        _logger.LogInformation(content);
+        CsvData.SetCsvContent(content);
+
+        NavManager.NavigateTo("dashboard");
     }
 }

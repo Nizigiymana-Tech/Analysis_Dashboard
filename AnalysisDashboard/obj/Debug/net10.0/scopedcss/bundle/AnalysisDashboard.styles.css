@@ -363,6 +363,59 @@ main[b-ml1j9nk93k] {
         opacity: 0;
     }
 }
+/* /Components/Pages/Dashboard.razor.rz.scp.css */
+table[b-w26jcknfvy] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+tr[b-w26jcknfvy] {
+    border-bottom: 1px solid #dddddd;
+}
+
+td[b-w26jcknfvy] {
+    padding: 14px 18px;
+    text-align: left;
+    border-right: 1px solid #dddddd;
+}
+
+tr:first-child[b-w26jcknfvy] {
+    background-color: #eeeeee;
+    font-weight: bold;
+}
+
+tr:hover[b-w26jcknfvy] {
+    background-color: #f5f5f5;
+}
+
+td:last-child[b-w26jcknfvy] {
+    border-right: none;
+}
+
+.header[b-w26jcknfvy] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.header button[b-w26jcknfvy] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.header button:hover[b-w26jcknfvy] {
+    background-color: #333333;
+}
 /* /Components/Pages/Home.razor.rz.scp.css */
 /* /Components/Pages/Importcsv.razor.rz.scp.css */
 *[b-7p85gof2tf] {
