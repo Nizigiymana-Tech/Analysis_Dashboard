@@ -27,6 +27,8 @@
 </div>
 
 @code {
+    private string errorMessage;
+
     private void RedirectUseWithData(string CsvInfo)
     {
         NavManager.NavigateTo("dashboard");
@@ -35,6 +37,7 @@
     private async Task UploadFile(InputFileChangeEventArgs e)
     {
         var file = e.File;
+        errorMessage = null;
 
         using var stream = file.OpenReadStream(maxAllowedSize: 5 * 1024 * 1024);
         using var reader = new StreamReader(stream);

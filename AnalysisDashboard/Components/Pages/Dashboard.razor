@@ -2,17 +2,8 @@
 @using AnalysisDashboard.Services
 @inject CsvDataService CsvData
 @rendermode InteractiveServer
-@using BlazorBootstrap
-@using BlazorExpress.ChartJS
 
-
-<div class="header">
-    <h2>Uploaded Dataset</h2>
-
-    <button @onclick="ToggleChart">
-        Toggle Chart
-    </button>
-</div>
+<h2>Uploaded Dataset</h2>
 
 @if (string.IsNullOrEmpty(CsvData.CsvContent))
 {
@@ -20,45 +11,21 @@
 }
 else
 {
-    @if (showChart)
-    {
-        <BarChart @ref="barChart" Width="500" Height="300" />
-
-        <select @bind="selectedCategoryColumn">
-            @for (int i = 0; i < rows[0].Length; i++)
-            {
-                <option value="@i">
-                    @rows[0][i]
-                </option>
-            }
-        </select>
-    }
-    else
-    {
-        <table>
-            @foreach (string[] row in rows)
-            {
-                <tr>
-                    @foreach (string value in row)
-                    {
-                        <td>@value</td>
-                    }
-                </tr>
-            }
-        </table> 
-    }
+    <table>
+        @foreach (string[] row in rows)
+        {
+            <tr>
+                @foreach (string value in row)
+                {
+                    <td>@value</td>
+                }
+            </tr>
+        }
+    </table>
 }
 
 @code {
     private string[][] rows = Array.Empty<string[]>();
-    private bool showChart = false;
-
-    private BarChart barChart = default!;
-    private BarChartOptions barChartOptions = default!;
-    private ChartData chartData = default!;
-
-    private int selectedCategoryColumn = 0;
-    private int selectedValueColumn = 1;
 
     protected override void OnInitialized()
     {
@@ -71,8 +38,6 @@ else
         string[] dataSplit = data.Split('\n');
 
         List<string[]> rows = new List<string[]>();
-        List<int> numericColums = new List<int>();
-        List<double> values = new List<double>();
 
         foreach (string value in dataSplit)
         {
@@ -85,38 +50,6 @@ else
             rows.Add(newValue);
         }
 
-        foreach (string[] row in rows)
-        {
-            for (int i = 0; i < row.Length; i++)
-            {
-                bool isNum = double.TryParse(row[i], out double value);
-
-                if (isNum && !numericColums.Contains(i))
-                {
-                    numericColums.Add(i);
-                }
-            }
-        }
-
-        foreach (string[] row in rows)
-        {
-            if (row.Length > 1)
-            {
-                bool isNum = double.TryParse(row[1], out double value);
-
-                if (isNum)
-                {
-                    values.Add(value);
-                }
-            }
-        }
-
-
         return rows.ToArray();
-    }
-
-    private void ToggleChart()
-    {
-        showChart = !showChart;
     }
 }
