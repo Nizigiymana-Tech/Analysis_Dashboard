@@ -22,7 +22,16 @@ else
 {
     @if (showChart)
     {
-        
+        <BarChart @ref="barChart" Width="500" Height="300" />
+
+        <select @bind="selectedCategoryColumn">
+            @for (int i = 0; i < rows[0].Length; i++)
+            {
+                <option value="@i">
+                    @rows[0][i]
+                </option>
+            }
+        </select>
     }
     else
     {
@@ -44,6 +53,13 @@ else
     private string[][] rows = Array.Empty<string[]>();
     private bool showChart = false;
 
+    private BarChart barChart = default!;
+    private BarChartOptions barChartOptions = default!;
+    private ChartData chartData = default!;
+
+    private int selectedCategoryColumn = 0;
+    private int selectedValueColumn = 1;
+
     protected override void OnInitialized()
     {
         rows = GetRows();
@@ -56,22 +72,41 @@ else
 
         List<string[]> rows = new List<string[]>();
         List<int> numericColums = new List<int>();
+        List<double> values = new List<double>();
 
         foreach (string value in dataSplit)
         {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                continue;
+            }
+
             string[] newValue = value.Split(",");
             rows.Add(newValue);
         }
 
         foreach (string[] row in rows)
         {
-            foreach (string value in row)
+            for (int i = 0; i < row.Length; i++)
             {
-                bool isNumber = double.TryParse(value, out double result);
+                bool isNum = double.TryParse(row[i], out double value);
 
-                if (isNumber)
+                if (isNum && !numericColums.Contains(i))
                 {
-                    Console.WriteLine("IsNUm");
+                    numericColums.Add(i);
+                }
+            }
+        }
+
+        foreach (string[] row in rows)
+        {
+            if (row.Length > 1)
+            {
+                bool isNum = double.TryParse(row[1], out double value);
+
+                if (isNum)
+                {
+                    values.Add(value);
                 }
             }
         }
